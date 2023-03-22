@@ -1,0 +1,28 @@
+{
+  "name": "haystaller",
+  "version": "0.0.1",
+  "description": "A Haystacks application that provides the tools, business rules, commands and workflow to automate the process of installing, uninstalling, updating and repairing installations of an application that implements haystacks as part of an end-use application or GUI application, native to a desktop computer or mobile device. Allows for app installation.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SethEden/HayStaller.git"
+  },
+  "keywords": [
+    "installer",
+    "installation",
+    "install",
+    "uninstall",
+    "repair",
+    "update",
+    "patch"
+  ],
+  "author": "Seth Hollingsead",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SethEden/HayStaller/issues"
+  },
+  "homepage": "https://github.com/SethEden/HayStaller#readme"
+}
