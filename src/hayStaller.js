@@ -66,5 +66,21 @@ async function bootStrapApplication() {
   }
   rootPathArray = rootPath.split(pathSeparator);
   rootPathArray.pop(); // remove any bin or src folder from the path.
-  rootPath = 
+  rootPath = rootPathAray.join(pathSeparator);
+  let appConfig = {};
+  if (NODE_ENV === wrd.cdevelopment) {
+    appConfig = {
+
+    };
+  } else if (NODE_ENV === wrd.cproduction) {
+    appConfig = {
+
+    };
+  } else {
+    // WARNING: No .nev file found! Going to default to the DEVELOPMENT ENVIRONMENT!
+    console.log(msg.cApplicationWarningMessage1a + msg.cApplicationWarningMessage1b);
+    appConfig = {
+
+    };
+  }
 }
