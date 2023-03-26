@@ -26,7 +26,12 @@
  */
 
 // Internal imports
-
+import clientRules from './businessRules/stallerRulesLibrary.js';
+import clientCommands from './commands/stallerCommandsLibrary.js';
+import * as app_cfg from './constants/application.configuration.constants.js';
+import * as apc from './constants/application.constants.js';
+import * as app_msg from './constants/application.message.constants.js';
+import allAppCV from './resources/constantsValidation/allApplicationConstantsValidationmetadata.js';
 // External imports
 import haystacks from '@haystacks/async';
 import hayConst from '@haystacks/constants';
@@ -70,7 +75,17 @@ async function bootStrapApplication() {
   let appConfig = {};
   if (NODE_ENV === wrd.cdevelopment) {
     appConfig = {
-
+      FrameworkName: apc.cExpectedActualFrameworkDevName,
+      clientRootPath: rootPath,
+      appConfigResources: rootPath + apc.cFullDevResourcesPath,
+      appConfigReferencePath: rootPath + apc.cFullDevConfigurationPath,
+      clientMetaDataPath: apc.cmetaDataDevPath,
+      clientCommandAliasesPath: rootPath + apc.cFullDevCommandsPath,
+      clientConstantsPath: rootPath + apc.cFullDevConstantsPath,
+      clientRegisteredPlugins: rootPath + apc.cFullDevPluginsRegistryPath,
+      clientWorkflowsPath: rootPath + apc.cFullDevWorkflowsPath,
+      clientThemesPath: rootPath + apc.cFullDevThemesPath,
+      applicationConstantsVaidationData: allAppCV.i
     };
   } else if (NODE_ENV === wrd.cproduction) {
     appConfig = {
