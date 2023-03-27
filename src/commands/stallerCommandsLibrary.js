@@ -14,8 +14,8 @@
 
 // Internal imports
 import applicationSystem from './clientCommands/applicationSystem.js';
-import applicationTest from './clientCommands/applicationTest.js';
-import stallerCommands from '../clientCommands/stallerCommands.js';
+import applicationTest from './clientCommands/applicationTests.js';
+import stallerCommands from './clientCommands/hayStallerCommands.js';
 import * as app_cmd from '../constants/application.command.constants.js';
 
 /**

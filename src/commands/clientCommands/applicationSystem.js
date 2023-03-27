@@ -12,7 +12,7 @@
  */
 
 // Internal imports
-import * as apc from '../../constants/appication.constants.js';
+import * as apc from '../../constants/application.constants.js';
 import * as app_msg from '../../constants/application.message.constants.js';
 // External imports
 import haystacks from '@haystacks/async';

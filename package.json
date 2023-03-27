@@ -29,8 +29,8 @@
   },
   "homepage": "https://github.com/SethEden/HayStaller#readme",
   "dependencies": {
-    "@haystacks/async": "^0.2.5",
-    "@haystacks/constants": "^0.2.5",
+    "@haystacks/async": ">=0.2.5",
+    "@haystacks/constants": ">=0.2.5",
     "chalk": "^5.2.0",
     "dotenv": "^16.0.3",
     "pkg": "^5.8.1"

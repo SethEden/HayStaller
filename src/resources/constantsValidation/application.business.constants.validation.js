@@ -11,4 +11,9 @@
 // Internal imports
 import * as app_biz from '../../constants/application.business.constants.js';
 
-export const application
+export const applicationBusinessConstantsValidatino = [
+  // ********************************
+  // Staller rules in order
+  // ********************************
+  
+];
