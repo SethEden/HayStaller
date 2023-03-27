@@ -7,7 +7,11 @@
   "type": "module",
   "scripts": {
     "start": "node ./src/hayStaller.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "node ./build/buildRelease/src/buildRelease.js",
+    "compile": "pkg package.json --out-path ./bin/",
+    "vers": "standard-version -m \"chore(release) version %s \"",
+    "docs": "jsdoc -c jsdoc.json",
+    "test": "node ./src/hayStaller.js allApplicationValidations"
   },
   "repository": {
     "type": "git",
@@ -32,14 +36,14 @@
     "@haystacks/async": ">=0.2.5",
     "@haystacks/constants": ">=0.2.5",
     "chalk": "^5.2.0",
-    "dotenv": "^16.0.3",
-    "pkg": "^5.8.1"
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {
     "eslint": "^8.36.0",
     "jsdoc": "^4.0.2",
     "markdown-it": ">=12.3.2",
     "marked": ">=4.0.10",
+    "pkg": "^5.8.1",
     "standard-version": "^9.5.0"
   }
 }
