@@ -1,0 +1,49 @@
+{
+  "name": "haystaller",
+  "version": "0.0.2",
+  "description": "A Haystacks application that provides the tools, business rules, commands and workflow to automate the process of installing, uninstalling, updating and repairing installations of an application that implements haystacks as part of an end-use application or GUI application, native to a desktop computer or mobile device. Allows for app installation.",
+  "main": "./src/hayStaller.js",
+  "bin": "./bin/hayStaller.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/hayStaller.js",
+    "release": "node ./build/buildRelease/src/buildRelease.js",
+    "compile": "pkg package.json --out-path ./bin/",
+    "vers": "standard-version -m \"chore(release) version %s \"",
+    "docs": "jsdoc -c jsdoc.json",
+    "test": "node ./src/hayStaller.js allApplicationValidations"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SethEden/HayStaller.git"
+  },
+  "keywords": [
+    "installer",
+    "installation",
+    "install",
+    "uninstall",
+    "repair",
+    "update",
+    "patch"
+  ],
+  "author": "Seth Hollingsead <iceversaka@hotmail.comn>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SethEden/HayStaller/issues"
+  },
+  "homepage": "https://github.com/SethEden/HayStaller#readme",
+  "dependencies": {
+    "@haystacks/async": ">=0.2.6",
+    "@haystacks/constants": ">=0.2.6",
+    "chalk": "^5.2.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "jsdoc": "^4.0.2",
+    "markdown-it": ">=12.3.2",
+    "marked": ">=4.0.10",
+    "pkg": "^5.8.1",
+    "standard-version": "^9.5.0"
+  }
+}

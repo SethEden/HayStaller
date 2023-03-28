@@ -1,0 +1,15 @@
+{
+  "debugFiles|debugSetting.application.hayStaller.commands.clientCommands.hayStallerCommands": false,
+  "debugFiles|debugSetting.application.hayStaller.commands.clientCommands.hayStallerCommands@ModuleFontStyle": "Bold|Underline",
+  "debugFiles|debugSetting.application.hayStaller.commands.clientCommands.hayStallerCommands@FunctionFontStyle": "Bold|Underline",
+  "debugFiles|debugSetting.application.hayStaller.commands.clientCommands.hayStallerCommands@MessageFontStyle": "Underline",
+  "debugFiles|debugSetting.application.hayStaller.commands.clientCommands.hayStallerCommands@DataFontStyle": "Bold",
+  "debugFiles|debugSetting.application.hayStaller.commands.clientCommands.hayStallerCommands@ModuleFontColor": "0,0,0",
+  "debugFiles|debugSetting.application.hayStaller.commands.clientCommands.hayStallerCommands@FunctionFontColor": "0,0,0",
+  "debugFiles|debugSetting.application.hayStaller.commands.clientCommands.hayStallerCommands@MessageFontColor": "0,0,0",
+  "debugFiles|debugSetting.application.hayStaller.commands.clientCommands.hayStallerCommands@DataFontColor": "Red",
+  "debugFiles|debugSetting.application.hayStaller.commands.clientCommands.hayStallerCommands@ModuleFontBackgroundColor": "255,255,255",
+  "debugFiles|debugSetting.application.hayStaller.commands.clientCommands.hayStallerCommands@FunctionFontBackgroundColor": "255,255,255",
+  "debugFiles|debugSetting.application.hayStaller.commands.clientCommands.hayStallerCommands@MessageFontBackgroundColor": "255,255,255",
+  "debugFiles|debugSetting.application.hayStaller.commands.clientCommands.hayStallerCommands@DataFontBackgroundColor": "0,0,0"
+}
