@@ -22,7 +22,7 @@ export const applicationMessageConstantsValidation = [
   // General application messages
 
   // Application messages
-  {Name: 'cinstructionsMessage00', Actual: app_msg.cinstructionsMessage00, Expected: 'Instructions to end user: '},
+  {Name: 'cinstructionsMessage00', Actual: app_msg.cinstructionsMessage00, Expected: 'Instructions to end user:'},
 
   // Constants Validation
   {Name: 'callClientConstantsValidationDataIs', Actual: app_msg.callClientConstantsValidationDataIs, Expected: 'allClientConstantsValidationData is: '},
@@ -51,5 +51,5 @@ export const applicationMessageConstantsValidation = [
   {Name: 'capplicationMessage02', Actual: app_msg.capplicationMessage02, Expected: 'BEGIN command parser'},
   {Name: 'capplicationMessage03', Actual: app_msg.capplicationMessage03, Expected: 'END command parser'},
   {Name: 'capplicationMessage04', Actual: app_msg.capplicationMessage04, Expected: 'END main program loop'},
-  {Name: 'capplicationMessage05', Actual: app_msg.capplicationMessage05, Expected: 'Exiting Haystacks-TT application'}
+  {Name: 'capplicationMessage05', Actual: app_msg.capplicationMessage05, Expected: 'Exiting HayStaller application'}
 ];
