@@ -1,6 +1,6 @@
 {
   "name": "haystaller",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Haystacks application that provides the tools, business rules, commands and workflow to automate the process of installing, uninstalling, updating and repairing installations of an application that implements haystacks as part of an end-use application or GUI application, native to a desktop computer or mobile device. Allows for app installation.",
   "main": "./src/hayStaller.js",
   "bin": "./bin/hayStaller.js",
@@ -33,8 +33,8 @@
   },
   "homepage": "https://github.com/SethEden/HayStaller#readme",
   "dependencies": {
-    "@haystacks/async": ">=0.2.6",
-    "@haystacks/constants": ">=0.2.6",
+    "@haystacks/async": ">=0.2.7",
+    "@haystacks/constants": ">=0.2.7",
     "chalk": "^5.2.0",
     "dotenv": "^16.0.3"
   },
