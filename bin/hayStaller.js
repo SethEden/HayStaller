@@ -5,7 +5,7 @@
  * @file hayStaller.js
  * @module hayStaller
  * @description This is the main init for the hayStaller application.
- * It contains just enough of the main program loop and basic argument parsing to function an
+ * It contains just enough of the main program loop and basic argument parsing to function as an
  * interactive installation/uninstall/update/patch/repair application to fix and update applications that implement the haystacks platform.
  * @requires module:installBroker
  * @requires module:installerRules
@@ -73,7 +73,7 @@ async function bootStrapApplication() {
     pathSeparator = bas.cForwardSlash;
   }
   rootPathArray = rootPath.split(pathSeparator);
-  rootPathArray.pop(); // remove any bin or src folder from the path.
+  rootPathArray.pop(); // Remove any bin or src folder from the path.
   rootPath = rootPathArray.join(pathSeparator);
   let appConfig = {};
   if (NODE_ENV === wrd.cdevelopment) {
@@ -109,7 +109,7 @@ async function bootStrapApplication() {
       clientCommands: {}
     };
   } else {
-    // WARNING: No .nev file found! Going to default to the DEVELOPMENT ENVIRONMENT!
+    // WARNING: No .env file found! Going to default to the DEVELOPMENT ENVIRONMENT!
     console.log(msg.cApplicationWarningMessage1a + msg.cApplicationWarningMessage1b);
     appConfig = {
       FrameworkName: apc.cExpectedActualFrameworkDevName,

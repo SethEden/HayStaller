@@ -11,6 +11,13 @@
 // Internal imports
 import * as apc from '../../constants/application.constants.js';
 
+/**
+ * @function applicationConstantsValidation
+ * @description Initializes the general application constants validation data objects array.
+ * @return {array<object<Name,Actual,Expected>>} An array of constants validation data objects.
+ * @author Seth Hollingsead
+ * @date 2023/03/27
+ */
 export const applicationConstantsValidation = [
   {Name: 'cExpectedActualFrameworkDevName', Actual: apc.cExpectedActualFrameworkDevName, Expected: 'haystacks-async'},
   {Name: 'cExpectedActualFrameworkProdName', Actual: apc.cExpectedActualFrameworkProdName, Expected: '@haystacks/async'},

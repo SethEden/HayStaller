@@ -2,7 +2,7 @@
  * @file application.command.constants.js
  * @module application.command.constants
  * @description A file to hold all of the client application command constants.
- * So none of the constants in this file should be generic/system/framework constants
+ * So none of the constants in this file should be generic/system/framework constants.
  * @requires {@link https://www.npmjs.com/package/@haystacks/constants|@haystacks/constants}
  * @author Seth Hollingsead
  * @date 2023/03/23

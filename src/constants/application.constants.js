@@ -1,7 +1,7 @@
 /**
  * @file application.constants.js
  * @module application.constants
- * @description Contains many re-usable application constants
+ * @description Contains many re-usable application constants.
  * @requires {@link https://www.npmjs.com/package/@haystacks/constants|@haystacks/constants}
  * @author Seth Hollingsead
  * @date 2023/03/23

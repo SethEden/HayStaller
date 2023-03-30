@@ -27,7 +27,7 @@ import path from 'path';
 
 const {bas, msg, wrd} = hayConst;
 const baseFileName = path.basename(import.meta.url, path.extname(import.meta.url));
-// application.hayStaller.commands.clientCommands.tutoringCommands.
+// application.hayStaller.commands.clientCommands.hayStallerCommands.
 const namespacePrefix = wrd.capplication + bas.cDot + apc.cApplicationName + bas.cDot + wrd.ccommands + bas.cDot + wrd.cclient + wrd.cCommands + bas.cDot + baseFileName + bas.cDot;
 
 export default {

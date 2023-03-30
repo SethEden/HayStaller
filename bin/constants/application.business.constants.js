@@ -6,7 +6,7 @@
  * @requires {@link https://www.npmjs.com/package/@haystacks/constants|@haystacks/constants}
  * @author Seth Hollingsead
  * @date 2023/03/23
- * @copyright Copyright © 2022-… by Seth Hollingsead. All rights reserved
+ * @copyright Copyright © 2023-… by Seth Hollingsead. All rights reserved
  */
 
 // External imports
