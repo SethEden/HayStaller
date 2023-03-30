@@ -1,7 +1,7 @@
 /**
  * @file application.command.constants.validation.js
  * @module application.command.constants.validation
- * @description Contains all validations for named application command constants
+ * @description Contains all validations for named application command constants.
  * @requires module:application.command.constants
  * @author Seth Hollingsead
  * @date 2023/02/27
@@ -14,7 +14,7 @@ import * as app_cmd from '../../constants/application.command.constants.js';
 /**
  * @function applicationCommandConstantsValidation
  * @description Initializes the application command constants validation data objects array.
- * @return {array<Object<Name,Actual,Expected>>} An array of constants validation data objets.
+ * @return {array<object<Name,Actual,Expected>>} An array of constants validation data objects.
  * @author Seth Hollingsead
  * @date 2023/02/27
  */

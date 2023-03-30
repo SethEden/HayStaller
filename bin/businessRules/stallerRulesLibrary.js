@@ -30,6 +30,7 @@ const namespacePrefix = wrd.capplication + bas.cDot + apc.cApplicationName + bas
  * @description Initializes an object map of client business rules and client function calls and returns them.
  * @returns {object} A JSON object that contains a list of business rule names and their associated function calls.
  * @author Seth Hollingsead
+ * @date 2023/03/23
  * @NOTE Please be aware that the Commands and BusinessRules data fields in the
  * D-data structure are going to display as empty when printing out the D-data structure even when using JSON.stringify().
  * This is because the functions cannot really be serialized in any way. It actually kind of makes sense,
