@@ -1,5 +1,5 @@
 {
   "Name": "haystaller",
-  "Version": "0.0.3",
+  "Version": "0.0.4",
   "Description": "A Haystacks application that provides the tools, business rules, commands and workflow to automate the process of installing, uninstalling, updating and repairing installations of an application that implements haystacks as part of an end-use application or GUI application, native to a desktop computer or mobile device. Allows for app installation."
 }

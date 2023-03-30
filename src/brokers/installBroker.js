@@ -2,7 +2,7 @@
 /**
  * @file installBroker.js
  * @module installBroker
- * @description Contains all code for managing accounts, and account data.
+ * @description Contains all code for managing installation processes.
  * @requires module:application.configuration.constants
  * @requires module:application.constants
  * @requires module:application.message.constants
