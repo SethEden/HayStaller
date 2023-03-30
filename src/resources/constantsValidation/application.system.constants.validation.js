@@ -11,6 +11,13 @@
 // Internal imports
 import * as app_sys from '../../constants/application.system.constants.js';
 
+/**
+ * @function applicationSystemConstantsValidation
+ * @description Initializes the application system constants validation data objects array.
+ * @return {array<object<Name,Actual,Expected>>} An array of constants validation data objects.
+ * @author Seth Hollingsead
+ * @date 2023/03/27
+ */
 export const applicationSystemConstantsValidation = [
   // Staller system constants
 
