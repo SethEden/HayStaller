@@ -129,7 +129,7 @@ async function bootStrapApplication() {
   }
   appConfig[sys.cclientBusinessRules] = await stallerRules.initApplicationRulesLibrary();
   appConfig[sys.cclientCommands] = await stallerCommands.initApplicationCommandsLibrary();
-  // console.log('appConfig is: ', appConfig);
+  console.log('appConfig is: ', appConfig);
   await haystacks.initFramework(appConfig);
   // console.log(`END ${namespacePrefix}${functionName} function`);
 }
