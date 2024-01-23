@@ -33,7 +33,8 @@ export const callApplicationValidations = wrd.call + wrd.cApplication + wrd.cVal
 // ********************************
 // Staller Commands in order
 // ********************************
-
+export const cscanPath = wrd.cscan + wrd.cPath; // scanPath
+export const csaveFolderScanOutput = wrd.csave + wrd.cFolder + wrd.cScan + wrd.cOutput; // saveFolderScanOutput
 
 // ********************************
 // Application Workflows in order

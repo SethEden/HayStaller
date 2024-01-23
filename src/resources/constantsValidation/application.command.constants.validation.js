@@ -37,7 +37,8 @@ export const applicationCommandConstantsValidation = [
   // ********************************
   // Staller Commands in order
   // ********************************
-
+  {Name: 'cscanPath', Actual: app_cmd.cscanPath, Expected: 'scanPath'},
+  {Name: 'csaveFolderScanOutput', Actual: app_cmd.csaveFolderScanOutput, Expected: 'saveFolderScanOutput'},
   
   // ********************************
   // Application Workflows in order

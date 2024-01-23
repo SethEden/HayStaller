@@ -51,5 +51,8 @@ export const applicationMessageConstantsValidation = [
   {Name: 'capplicationMessage02', Actual: app_msg.capplicationMessage02, Expected: 'BEGIN command parser'},
   {Name: 'capplicationMessage03', Actual: app_msg.capplicationMessage03, Expected: 'END command parser'},
   {Name: 'capplicationMessage04', Actual: app_msg.capplicationMessage04, Expected: 'END main program loop'},
-  {Name: 'capplicationMessage05', Actual: app_msg.capplicationMessage05, Expected: 'Exiting HayStaller application'}
+  {Name: 'capplicationMessage05', Actual: app_msg.capplicationMessage05, Expected: 'Exiting HayStaller application'},
+
+  {Name: 'cscanPathErrorMessage01', Actual: app_msg.cscanPathErrorMessage01, Expected: 'ERROR: You must specify a folder or path to be scanned.'},
+  {Name: 'csaveFolderScanOutputMessage01', Actual: app_msg.csaveFolderScanOutputMessage01, Expected: 'ERROR: You must specify a file name and path to save the data to.'}
 ];

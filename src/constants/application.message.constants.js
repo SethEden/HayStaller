@@ -55,3 +55,6 @@ export const capplicationMessage02 = wrd.cBEGIN + bas.cSpace + wrd.ccommand + ba
 export const capplicationMessage03 = wrd.cEND + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.cparser; // END command parser
 export const capplicationMessage04 = wrd.cEND + bas.cSpace + wrd.cmain + bas.cSpace + wrd.cprogram + bas.cSpace + wrd.cloop; // END main program loop
 export const capplicationMessage05 = wrd.cExiting + bas.cSpace + wrd.cHay + wrd.cStaller + bas.cSpace + wrd.capplication; // Exiting HayStaller application
+
+export const cscanPathErrorMessage01 = msg.cERROR_Colon + wrd.cYou + bas.cSpace + wrd.cmust + bas.cSpace + wrd.cspecify + bas.cSpace + bas.ca + bas.cSpace + wrd.cfolder + bas.cSpace + wrd.cor + bas.cSpace + wrd.cpath + bas.cSpace + wrd.cto + bas.cSpace + wrd.cbe + bas.cSpace + wrd.cscanned + bas.cDot; // ERROR: You must specify a folder or path to be scanned.
+export const csaveFolderScanOutputMessage01 = msg.cERROR_Colon + wrd.cYou + bas.cSpace + wrd.cmust + bas.cSpace + wrd.cspecify + bas.cSpace + bas.ca + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cSpace + wrd.cand + bas.cSpace + wrd.cpath + bas.cSpace + wrd.cto + bas.cSpace + wrd.csave + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cto + bas.cDot; // ERROR: You must specify a file name and path to save the data to.

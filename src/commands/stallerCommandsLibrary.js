@@ -17,6 +17,7 @@ import applicationSystem from './clientCommands/applicationSystem.js';
 import applicationTests from './clientCommands/applicationTests.js';
 import stallerCommands from './clientCommands/hayStallerCommands.js';
 import * as app_cmd from '../constants/application.command.constants.js';
+import hayStallerCommands from './clientCommands/hayStallerCommands.js';
 
 /**
  * @function initApplicationCommandsLibrary
@@ -50,7 +51,8 @@ const initApplicationCommandsLibrary = function() {
     // ***********************************************
     // staller commands in order
     // ***********************************************
-    
+    [app_cmd.cscanPath]: (inputData, inputMetaData) => hayStallerCommands.scanPath(inputData, inputMetaData),
+    [app_cmd.csaveFolderScanOutput]: (inputData, inputMetaData) => hayStallerCommands.saveFolderScanOutput(inputData, inputMetaData)
   }
 }
 
